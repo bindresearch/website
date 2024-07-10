@@ -1,0 +1,94 @@
+---
+---
+
+$base-font-family: FreightSansProBook-Regular, Helvetica, sans-serif;
+$bold-font-family: FreightSansProBold-Regular, "Helvetica Bold", sans-serif;
+$italic-font-family: FreightSansProMedium-Italic, "Helvetica Bold", sans-serif;
+$base-font-size: 18px;
+
+$bind-brown: #612D08;
+$bind-yellow: #FBBA3B;
+$bind-orange: #C15B09;
+
+@import "whiteglass";
+
+.page-content {
+  .statement {
+    font-family: $italic-font-family;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  text-align: justify;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+figcaption {
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.site-header {
+  background-color: $bind-yellow;
+}
+
+.site-title {
+  font-family: $bold-font-family;
+  font-size: 36px;
+  color: $bind-brown;
+
+  &, &:visited {
+    color: $bind-brown;
+  }
+
+  &:hover {
+    color: $bind-orange;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  line-height: 56px;
+  background-color: $bind-yellow;
+  font-size: 24px;
+
+  .page-link {
+    color: $bind-brown;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: $bind-orange;
+      text-decoration: none;
+    }
+  }
+
+  .page-link-active {
+    @extend .page-link;
+    font-family: $bold-font-family;
+  }
+
+  @include media-query($on-palm) {
+    .page-link {
+      padding: 20px 0;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}

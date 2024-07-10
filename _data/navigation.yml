@@ -1,0 +1,11 @@
+main:
+  - title: News
+    url: /news
+  - title: Science
+    url: /science
+  - title: Organisation
+    url: /org
+  - title: FAQ
+    url: /faq
+  - title: Contact
+    url: /contact
