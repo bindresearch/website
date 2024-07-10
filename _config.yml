@@ -29,7 +29,7 @@ github_username:  bindresearch
 google_analytics: G-3CYBM05RG7
 
 # Build settings
-theme: jekyll-whiteglass
+remote_theme: jekyll-whiteglass
 plugins:
   - jekyll-feed
 
