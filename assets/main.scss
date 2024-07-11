@@ -1,10 +1,14 @@
 ---
 ---
 
-$base-font-family: FreightSansProBook-Regular, Helvetica, sans-serif;
-$bold-font-family: FreightSansProBold-Regular, "Helvetica Bold", sans-serif;
-$italic-font-family: FreightSansProMedium-Italic, "Helvetica Bold", sans-serif;
-$base-font-size: 18px;
+$base-font-family: "Fira Sans", Helvetica, sans-serif;
+$base-font-size: 16px !default;
+$base-font-weight: 350 !default;
+$bold-font-family: "Fira Sans", "Helvetica Bold", sans-serif;
+$bold-font-weight: 500 !default;
+$italic-font-family: "Fira Sans", "Helvetica Bold", sans-serif;
+$italic-font-style: italic;
+// $base-font-size: 18px;
 
 $bind-brown: #612D08;
 $bind-yellow: #FBBA3B;
@@ -15,10 +19,15 @@ $bind-orange: #C15B09;
 .page-content {
   .statement {
     font-family: $italic-font-family;
+    font-style: $italic-font-style;
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+  }
+  strong {
+    font-family: $bold-font-family;
+    font-weight: $bold-font-weight;
   }
   text-align: justify;
 }
@@ -35,6 +44,10 @@ figcaption {
   font-size: 14px;
   line-height: 140%;
   margin-bottom: 30px;
+  strong {
+    font-family: $bold-font-family;
+    font-weight: $bold-font-weight;
+  }
 }
 
 .site-header {
@@ -43,6 +56,7 @@ figcaption {
 
 .site-title {
   font-family: $bold-font-family;
+  font-weight: $bold-font-weight;
   font-size: 36px;
   color: $bind-brown;
 
@@ -79,6 +93,7 @@ figcaption {
   .page-link-active {
     @extend .page-link;
     font-family: $bold-font-family;
+    font-weight: $bold-font-weight;
   }
 
   @include media-query($on-palm) {
