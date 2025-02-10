@@ -1,34 +1,158 @@
 ---
 ---
 
-$base-font-family: "Fira Sans", Helvetica, sans-serif;
+$base-font-family: "IBM Plex Sans", "Fira Sans", Helvetica, sans-serif;
 $base-font-size: 16px !default;
 $base-font-weight: 350 !default;
-$bold-font-family: "Fira Sans", "Helvetica Bold", sans-serif;
+$base-font-style: normal;
+$bold-font-family: "IBM Plex Sans", "Fira Sans", "Helvetica Bold", sans-serif;
 $bold-font-weight: 500 !default;
-$italic-font-family: "Fira Sans", "Helvetica Bold", sans-serif;
+$bold-font-style: normal;
+$special-font-family: "IBM Plex Sans Condensed", "Fira Sans", "Helvetica Bold", sans-serif;
+$special-font-weight: 500 !default;
+$special-font-style: normal;
+$italic-font-family: "IBM Plex Sans", "Fira Sans", "Helvetica Bold", sans-serif;
+$italic-font-weight: 350 !default;
 $italic-font-style: italic;
-// $base-font-size: 18px;
+$header-height: 56px;
 
-$bind-brown: #612D08;
-$bind-yellow: #FBBA3B;
-$bind-orange: #C15B09;
+$bind-hl1: #FBBA3B;
+$bind-hl2: #32716D;
+$bind-hl3: #C15B09;
 
 @import "whiteglass";
 
 .page-content {
-  .statement {
-    font-family: $italic-font-family;
-    font-style: $italic-font-style;
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
   strong {
     font-family: $bold-font-family;
     font-weight: $bold-font-weight;
   }
+
+  h1 {
+    font-family: $special-font-family;
+    font-weight: $special-font-weight;
+  }
+
+  h2 {
+    font-family: $special-font-family;
+    font-weight: $special-font-weight;
+  }
+
+  h3 {
+    font-family: $special-font-family;
+    font-weight: $special-font-weight;
+  }
+
+  .subtitle {
+    font-family: $special-font-family;
+    font-weight: $special-font-weight;
+    font-style: $italic-font-style;
+    font-size: 24px;
+    // color: $bind-hl2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .statement {
+    font-family: $base-font-family;
+    font-weight: $bold-font-weight;
+    font-style: $italic-font-style;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  .post-title {
+    font-family: $special-font-family;
+    font-weight: $special-font-weight;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 2px;
+  }
+
+  .post-date {
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    font-style: $italic-font-style;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+  }
+
+  .job-meta {
+    font-family: $base-font-family;
+    font-weight: $bold-font-weight;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .post-sidebyside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      max-width: 20%;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    .text {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .people-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    // min-height: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    img {
+      max-width: 25%;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    .text {
+      flex: 1;
+    }
+
+    .people-name {
+      font-family: $special-font-family;
+      font-weight: $special-font-weight;
+      font-size: 24px;
+      padding-top: 0px;
+      padding-bottom: 8px;
+    }
+
+    .people-meta {
+      font-family: $base-font-family;
+      font-weight: $bold-font-weight;
+      font-size: 16px;
+      padding-top: 2px;
+      padding-bottom: 8px;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
   text-align: justify;
 }
 
@@ -51,32 +175,19 @@ figcaption {
 }
 
 .site-header {
-  background-color: $bind-yellow;
-}
-
-.site-title {
-  font-family: $bold-font-family;
-  font-weight: $bold-font-weight;
-  font-size: 36px;
-  color: $bind-brown;
-
-  &, &:visited {
-    color: $bind-brown;
-  }
-
-  &:hover {
-    color: $bind-orange;
-    text-decoration: none;
+  img {
+    margin-top: 15px;
+    max-height: $header-height * 0.8;
   }
 }
 
 .site-nav {
-  line-height: 56px;
-  background-color: $bind-yellow;
+  margin-top: 8px;
+  line-height: $header-height;
+  font-family: $special-font-family;
   font-size: 24px;
 
   .page-link {
-    color: $bind-brown;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -85,15 +196,9 @@ figcaption {
     }
 
     &:hover {
-      color: $bind-orange;
+      color: $bind-hl2;
       text-decoration: none;
     }
-  }
-
-  .page-link-active {
-    @extend .page-link;
-    font-family: $bold-font-family;
-    font-weight: $bold-font-weight;
   }
 
   @include media-query($on-palm) {
