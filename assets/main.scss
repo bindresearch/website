@@ -31,11 +31,13 @@ $bind-hl3: #C15B09;
   h1 {
     font-family: $special-font-family;
     font-weight: $special-font-weight;
+    text-justify: none;
   }
 
   h2 {
     font-family: $special-font-family;
     font-weight: $special-font-weight;
+    text-justify: none;
   }
 
   h3 {
