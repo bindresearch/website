@@ -18,5 +18,3 @@ Many incurable diseases (e.g., cancer, neurodegeneration) involve biomolecules c
 Our mission is to make disordered proteins druggable. We are screening millions of disordered protein/drug-molecule pairs to learn the rules of drugging disordered proteins.
 
 Building on our expertise and working with academic and industrial partners, we are leveraging cutting-edge biology, engineering, and AI to deliver new drugs and tools. We are building comprehensive datasets of disordered protein-drug interactions to create public assets to fuel AI models and accelerate the discovery process. To accomplish this in a manner for maximum societal benefit, we have established a Focused Research Organisation (FRO), a fully-independent not-for-profit entity dedicated to this goal.
-
-Interested in pushing the limits of drug discovery? Join Us! Have a look at our [openings]({% link _content/careers.html %}) or reach out at <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a>!
