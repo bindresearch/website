@@ -1,0 +1,19 @@
+---
+layout: default
+title: Careers
+key: careers
+permalink: /careers/
+---
+<h1>Careers</h1>
+
+<p>Do you have a background in a highly technical field and a passion for disordered proteins and drug discovery but don’t see a specific position that speaks to you? We would love to hear from you, reach out at <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a> (no agencies please).</p>
+
+<h2>Open positions</h2>
+<ul>
+  {% for job in site.jobs %}
+  <li>
+      <div class="post-title"><a href="{{ site.baseurl }}{{ job.url }}">{{ job.title }}</a></div>
+      <div class="post-date">{{ job.date | date_to_string }}</div>
+  </li>
+  {% endfor %}
+</ul>

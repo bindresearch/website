@@ -3,16 +3,11 @@ layout: default
 title: Bind
 key: index
 ---
-<video autoplay="autoplay" loop="loop" width=800 height=450 muted>
-    <source src="/assets/images/looped-cropped-0xfd.webm" type="video/webm">
-</video>
-
 <!-- <video autoplay="autoplay" loop="loop" width=800 height=450 muted>
-    <source src="https://youtube.com/embed/RPrbedOWc44?autoplay=1&mute=1&controls=0&loop=1">
+    <source src="/assets/images/looped-cropped-0xfd.webm" type="video/webm; codecs=vp9, opus">
 </video> -->
 
-<!-- <iframe width=800 height=450 src="https://youtube.com/embed/RPrbedOWc44?autoplay=1&mute=1&controls=0&loop=1" frameborder="0" allowfullscreen allow="autoplay"> </iframe> -->
-<!-- <iframe width=800 height=450 src="https://youtube.com/embed/RPrbedOWc44?autoplay=1&mute=1&controls=0&loop=1" frameborder="0" allowfullscreen allow="autoplay"/> -->
+<img class="centered-gif" src="{{ site.baseurl }}/assets/images/looped-cropped-0xfd.webp" alt="Small molecule interacting with Amyloid-beta 42">
 
 <p class="subtitle">Our mission is to make disordered proteins druggable.</p>
 
@@ -24,4 +19,4 @@ Our mission is to make disordered proteins druggable. We are screening millions 
 
 Building on our expertise and working with academic and industrial partners, we are leveraging cutting-edge biology, engineering, and AI to deliver new drugs and tools. We are building comprehensive datasets of disordered protein-drug interactions to create public assets to fuel AI models and accelerate the discovery process. To accomplish this in a manner for maximum societal benefit, we have established a Focused Research Organisation (FRO), a fully-independent not-for-profit entity dedicated to this goal.
 
-<!-- Interested in pushing the limits of drug discovery? Join Us! Have a look at our [openings]({% link _content/careers.html %}) or reach out at <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a>! -->
+Interested in pushing the limits of drug discovery? Join Us! Have a look at our [openings]({% link _content/careers.html %}) or reach out at <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a>!

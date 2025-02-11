@@ -43,6 +43,13 @@ $bind-hl3: #C15B09;
     font-weight: $special-font-weight;
   }
 
+  .centered-gif {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
   .subtitle {
     font-family: $special-font-family;
     font-weight: $special-font-weight;

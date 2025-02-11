@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a href="{{ "/" | relative_url }}"><img src="{{ site.baseurl }}/assets/images/bind-rounded-inv.png"></a>
 
     <nav class="site-nav">
       {% for link in site.data.navigation.main %}
@@ -11,11 +11,7 @@
         {% else %}
           {% assign url = link.url | relative_url %}
         {% endif %}
-        {% if link.title == page.title %}
-          <a class="page-link-active" href="{{ url }}">{{ link.title }}</a>
-        {% else %}
-          <a class="page-link" href="{{ url }}">{{ link.title }}</a>
-        {% endif %}
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
       {% endfor %}
     </nav>
 
