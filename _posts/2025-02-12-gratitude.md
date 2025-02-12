@@ -7,7 +7,7 @@ author: Bind team
 ---
 Earlier this week, we announced the launch of **Bind Research**, a new not-for-profit organisation dedicated to delivering tools and datasets to make disordered proteins druggable.
 
-We are extremely grateful for the financial backing from the Department of Science, Innovation, and Technology, Eric Schmidt, and other partners. You can read more about them [here]({% post_url 2025-02-11-press %}).
+We are extremely grateful for the financial backing from the Department for Science, Innovation, and Technology, Eric Schmidt, and other partners. You can read more about them [here]({% post_url 2025-02-11-press %}).
 
 Although our public launch is new, Bind has been in the making for well over 2 years. During that time, we have been fortunate to have an incredibly strong foundation of supporters and scientific collaborators and have spoken with hundreds of people. While future posts will spotlight our scientific partners and collaborations in greater detail, today we want to recognise some key players who helped us behind the scenes build our organisation from the very beginning.
 
