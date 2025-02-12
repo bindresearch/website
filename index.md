@@ -3,10 +3,12 @@ layout: default
 title: Bind
 key: index
 ---
+<!-- Works in Firefox and Chrome, but not at all in Safari -->
 <!-- <video autoplay="autoplay" loop="loop" width=800 height=450 muted>
-    <source src="/assets/images/looped-cropped-0xfd.webm" type="video/webm; codecs=vp9, opus">
+    <source src="{{ site.baseurl }}/assets/images/looped-cropped-0xfd.webm" type="video/webm; codecs=vp9, opus">
 </video> -->
 
+<!-- Works in Firefox and Chrome, choppy in Safari -->
 <img class="centered-gif" src="{{ site.baseurl }}/assets/images/looped-cropped-0xfd.webp" alt="Small molecule interacting with Amyloid-beta 42">
 
 <p class="subtitle">Our mission is to make disordered proteins druggable.</p>
