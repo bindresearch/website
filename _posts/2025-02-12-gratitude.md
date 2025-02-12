@@ -21,4 +21,4 @@ In the coming months, we plan to share details about Bind’s organisational str
 
 ---
 
-[^1]: If you’re interested in learning more about starting your own not-for-profit research organization (FRO), we highly recommend [Erika's quick-start guide to research nonprofits](https://erikaaldendeb.substack.com/p/erikas-quick-start-guide-to-research) and [Speculative Technology’s Research Leaders’ Playbook](https://spec.tech/library/research-leaders-playbook).
+[^1]: If you’re interested in learning more about starting your own not-for-profit research organization (FRO), we highly recommend [Erika's quick-start guide to research nonprofits](https://erikaaldendeb.substack.com/p/erikas-quick-start-guide-to-research) and [Speculative Technologies’ Research Leaders’ Playbook](https://spec.tech/library/research-leaders-playbook).
