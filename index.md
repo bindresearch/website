@@ -3,13 +3,11 @@ layout: default
 title: Bind
 key: index
 ---
-<!-- Works in Firefox and Chrome, but not at all in Safari -->
-<!-- <video autoplay="autoplay" loop="loop" width=800 height=450 muted>
-    <source src="{{ site.baseurl }}/assets/images/looped-cropped-0xfd.webm" type="video/webm; codecs=vp9, opus">
-</video> -->
-
-<!-- Works in Firefox and Chrome, choppy in Safari -->
-<img class="centered-gif" src="{{ site.baseurl }}/assets/images/looped-cropped-0xfd.webp" alt="Small molecule interacting with Amyloid-beta 42">
+<!-- VP9 is the only codec that works in Firefox, Chrome, and Safari -->
+<video width=800 height=450 autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" poster="{{ site.baseurl }}/assets/images/ab-0-1.png">
+    <source src="{{ site.baseurl }}/assets/images/looped-crop.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
 
 <p class="subtitle">Our mission is to make disordered proteins druggable.</p>
 
