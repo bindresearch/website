@@ -4,7 +4,7 @@ title: Bind
 key: index
 ---
 <!-- VP9 is the only codec that works in Firefox, Chrome, and Safari -->
-<video width=800 height=450 autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" poster="{{ site.baseurl }}/assets/images/ab-0-1.png">
+<video width="100%" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" poster="{{ site.baseurl }}/assets/images/ab-0-1.png">
     <source src="{{ site.baseurl }}/assets/images/looped-crop.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
