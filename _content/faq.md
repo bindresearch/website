@@ -10,6 +10,13 @@ permalink: /faq/
 ## What is an FRO?
 A Focused Research Organisation (FRO) is an independent, not-for-profit startup-inspired entity dedicated to solving a scientific challenge and providing public goods ([Marblestone et al., Nature, 2022](https://doi.org/10.1038/d41586-022-00018-5)).
 
+## How can I learn more about starting an FRO?
+Check out these resources:
+
+1. [Marblestone et al., Nature, 2022](https://www.nature.com/articles/d41586-022-00018-5)
+2. [Research Leaders' Playbook](https://spec.tech/library/research-leaders-playbook)
+3. [Erika's quick-start guide to research nonprofits](https://erikaaldendeb.substack.com/p/erikas-quick-start-guide-to-research)
+
 ## Why can’t this be done in a university setting?
 Academic expectations (publishing, grant acquisition, teaching) often prevent large-scale, team projects with high engineering scope from taking shape. Also, this work sits between basic and applied science, making it difficult to fund via traditional grants. Targeting many diverse disordered biomolecules and obtaining mechanistic insight for these interactions is generally not possible in academic settings. For these reasons, an FRO is the ideal structure for this project.
 
