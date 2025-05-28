@@ -1,0 +1,19 @@
+---
+layout: default
+title: Team
+key: team
+permalink: /team/
+---
+<h1>Team</h1>
+
+{% assign sorted_team = site.team | sort: "category" %}
+{% for member in sorted_team %}
+  <div class="people-content">
+      <img src="{{ site.baseurl }}/assets/images/{{ member.pic }}">
+      <div class="text">
+          <div class="people-name">{{ member.name }}</div>
+          <div class="people-meta">{{ member.position }}</div>
+          <p>{{ member.bio }}</p>
+      </div>
+  </div>
+{% endfor %}

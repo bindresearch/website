@@ -36,10 +36,12 @@ plugins:
 sass:
   style: compressed
 
-include: ["_jobs"]
+include: ["_jobs", "_team"]
 
 collections:
   jobs:
+    output: true
+  team:
     output: true
   content:
     output: true
