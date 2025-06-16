@@ -19,4 +19,5 @@ The scale of our science is bold, requiring a strong engineering focus, and is r
 # Support
 We are supported by the UK government, philanthropy, disease-related organisations, and industry. We also collaborate with and rely extensively on support from academic labs. If you would like to learn more, reach out at <a href="mailto:info@bindresearch.org">info@bindresearch.org</a>.
 
-<img src="{{ site.baseurl }}/assets/images/Funded by UK Gov.png" style="width: 30%">
+<img src="{{ site.baseurl }}/assets/images/Funded by UK Gov.png" style="width: 30%; margin-right: 20px;">
+<a href="https://www.ngosource.org/about-equivalency-determination-on-file-badge"><img src="{{ site.baseurl }}/assets/images/NGOsource ED on File Image.png" style="width: 20%"></a>
