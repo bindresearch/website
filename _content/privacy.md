@@ -13,7 +13,7 @@ This privacy policy only applies to personal information we hold about individua
 We may update this privacy policy from time to time by publishing the amended version on our website.  Following any changes, the date at the top of this notice will be updated.
 
 ## Who we are
-In this policy, whenever you see the words (‘we’, ‘us’ or ‘our’), it refers to **Bind Research, Cannon Place, 78 Cannon Street, London, United Kingdom, EC4N 6AF. Registered in England Company No: 16175978**.  For the purposes of UK Data Protection Law, we are a data controller in respect of the personal information that we collect and process about you as described in this privacy policy.
+In this policy, whenever you see the words (‘we’, ‘us’ or ‘our’), it refers to **Bind Research, Apex, 1 Tribeca Walk, London, United Kingdom, NW1 0QE. Registered in England Company No: 16175978**.  For the purposes of UK Data Protection Law, we are a data controller in respect of the personal information that we collect and process about you as described in this privacy policy.
 
 ## Information we collect
 We will only ever collect the information we need – including data that will be useful to help improve our services.
