@@ -4,9 +4,10 @@ title: Privacy Policy
 key: privacy
 permalink: /privacy/
 ---
-# Privacy Notice
+# Privacy Policy
 *Edition date: 7th February 2025*
 
+## Introduction
 At Bind Research, we know that you take the privacy of your information and how it is used and shared very seriously and we will only use your personal information in accordance with the current data protection laws in the UK and this privacy notice. This notice describes our privacy policy and how we aim to repay the trust you have shown by sharing your personal data with us.
 This policy applies to all the websites we operate, our use of emails and text messages for marketing purposes, and any other methods we use for collecting information. It covers what we collect, why we collect it, what we do with the information, what we won’t do with the information, and what rights you have.
 This privacy policy only applies to personal information we hold about individuals.  It does not apply to information we hold about companies and other organisations.  
