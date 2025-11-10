@@ -8,6 +8,7 @@ location: Kings Cross, London
 kind: On-site
 start: As soon as possible
 report: Head of Protein and Drug Discovery
+reference: BRJ015
 ---
 
 <h1 style="text-align: left;">{{ page.title }}</h1>
@@ -16,7 +17,7 @@ report: Head of Protein and Drug Discovery
 <div class="job-meta">Location: {{ page.location }} ({{ page.kind }})</div>
 <div class="job-meta">Type: Permanent (>4.5 years funding guaranteed)</div>
 <div class="job-meta">Reporting to: {{ page.report }}</div>
-<div class="job-meta">Contact and application: <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a></div>
+<div class="job-meta">Contact and application: <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a> (Reference {{ page.reference }})</div>
 <br />
 
 ## About Bind
@@ -118,7 +119,7 @@ We encourage applications from biochemists, biophysicists, and individuals with 
 - As maths plays an important role in our laboratory work, a brief maths skills assessment will be included as part of the interview process 
 - Due to the hands-on nature of the role, we expect the successful candidate to attend the Bind offices and laboratories on all working days. While Bind supports flexibility where possible, this position is not suitable for routine remote or hybrid working 
 - Although we anticipate this will be a busy role, part-time and flexible arrangements may be considered for the right candidate and we welcome your suggestions 
-- To apply send your CV and cover letter to [careers@bindresearch.org](mailto:careers@bindresearch.org) with the reference number BRJ015 and your name in the email header 
+- To apply send your CV and cover letter to [careers@bindresearch.org](mailto:careers@bindresearch.org) with the **reference number {{ page.reference }}** and your name in the email header 
 
 **Join Bind Research** and help push the limits of drug discovery for intrinsically disordered proteins!
 
