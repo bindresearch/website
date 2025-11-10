@@ -122,4 +122,4 @@ We encourage applications from biochemists, biophysicists, and individuals with 
 
 **Join Bind Research** and help push the limits of drug discovery for intrinsically disordered proteins!
 
-We are committed to protecting your personal information. For full details on how we collect, use, and store your data during the recruitment process, please refer to our <a href={% link _content/privacy.md %}>Privacy Notice</a>.
+We are committed to protecting your personal information. For full details on how we collect, use, and store your data during the recruitment process, please refer to our <a href="{% link _content/privacy.md %}">Privacy Notice</a>.
