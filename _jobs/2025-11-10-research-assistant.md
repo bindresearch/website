@@ -87,15 +87,6 @@ We encourage applications from biochemists, biophysicists, and individuals with 
 - Experience of producing isotopically labelled samples for NMR studies 
 - Experience in coordinating laboratory deliveries and managing reagent inventories to support ongoing research operations 
 
-## Who You Are
-- **Team player.** You appreciate that in a small organisation, you may need to roll your sleeves up and get stuck in. 
-- **More than just the numbers.** You like working with numbers, but understand how to bring meaning to them and use them to tell a story. 
-- **Process-savvy, but flexible.** You bring order to chaos, but you are able to be pragmatic and adapt. 
-- **A clear communicator.** You present well to different audiences, know how to avoid the jargon and write crisply. You take people on the journey with you. 
-- **Problem solver.** You thrive in coming up with solutions and thinking outside the box.  
-- **Technically strong.** We don’t mind which route you’ve taken to get to where you are, but you know your stuff and are most likely to be a few years post qualification (ACA, ACCA, CIMA).  
-- **Experienced in biotech, life sciences, research operations, or startups** - but we’re open-minded for the right candidate. This might be your first step up to a financial controller role but you’re ready for the challenge. 
-
 ---
 
 ## Our Culture
