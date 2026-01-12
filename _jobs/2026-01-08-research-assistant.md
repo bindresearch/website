@@ -15,7 +15,7 @@ reference: BRJ016
 <div class="job-meta">Posted: {{ page.date | date_to_string }}</div>
 <div class="job-meta">Start date: {{ page.start }}</div>
 <div class="job-meta">Location: {{ page.location }} ({{ page.kind }})</div>
-<div class="job-meta">Type: Permanent (>4.5 years funding guaranteed)</div>
+<div class="job-meta">Type: Permanent (>4 years funding guaranteed)</div>
 <div class="job-meta">Reporting to: {{ page.report }}</div>
 <div class="job-meta">Contact and application: <a href="mailto:careers@bindresearch.org">careers@bindresearch.org</a> (Reference {{ page.reference }})</div>
 <br />
