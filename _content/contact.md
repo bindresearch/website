@@ -7,6 +7,9 @@ permalink: /contact/
 # Contact
 Are you interested in more details about our scientific approach, organisational structure, or fundraising? Contact us at <a href="mailto:info@bindresearch.org">info@bindresearch.org</a>.
 
+## Target submission
+Would you like to work with us to screen a particular disordered target? Please fill out the <a href="https://forms.cloud.microsoft/e/yQDgyQMqrc">form</a>.
+
 ## Press
 For press inquiries, contact <a href="mailto:press@bindresearch.org">press@bindresearch.org</a>.
 
